@@ -1,3 +1,3 @@
-使用VS Code安装EIDE插件，直接打开USB_TEST.code-workspace文件即可启动项目，项目默认使用DAP下载。
+使用VS Code安装EIDE插件，直接打开USB_TEST.code-workspace文件即可启动项目，编译使用GCC，项目默认使用DAP下载。
 只做了USB HID键鼠主机读取键鼠数据并通过模拟键鼠从机发送到USB主机，需要处理键鼠数据在main函数中发送到USB主机前处理就行。
 USB HID键鼠主机兼容大部分键鼠，包括罗技鼠标、键鼠复合设备等，并且能够将USB主机下发的LED状态发送到物理键盘上，不支持多媒体键。
